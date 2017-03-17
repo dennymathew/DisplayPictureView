@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		EFDD14A11E7C639A00E464D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDD14A01E7C639A00E464D0 /* AppDelegate.swift */; };
-		EFDD14A31E7C639A00E464D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDD14A21E7C639A00E464D0 /* ViewController.swift */; };
-		EFDD14A61E7C639A00E464D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD14A41E7C639A00E464D0 /* Main.storyboard */; };
-		EFDD14A81E7C639A00E464D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDD14A71E7C639A00E464D0 /* Assets.xcassets */; };
 		EFDD14AB1E7C639A00E464D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD14A91E7C639A00E464D0 /* LaunchScreen.storyboard */; };
 		EFDD14B61E7C639A00E464D0 /* DisplayPictureViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDD14B51E7C639A00E464D0 /* DisplayPictureViewTests.swift */; };
+		EFDD14C31E7C645300E464D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD14C21E7C645300E464D0 /* Main.storyboard */; };
+		EFDD14C51E7C64CE00E464D0 /* DMDisplayPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDD14C41E7C64CE00E464D0 /* DMDisplayPictureViewController.swift */; };
+		EFDD14C91E7C654B00E464D0 /* DMProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDD14C81E7C654B00E464D0 /* DMProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,14 @@
 /* Begin PBXFileReference section */
 		EFDD149D1E7C639A00E464D0 /* DisplayPictureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayPictureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDD14A01E7C639A00E464D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFDD14A21E7C639A00E464D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFDD14A51E7C639A00E464D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EFDD14A71E7C639A00E464D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDD14AA1E7C639A00E464D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDD14AC1E7C639A00E464D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFDD14B11E7C639A00E464D0 /* DisplayPictureViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayPictureViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDD14B51E7C639A00E464D0 /* DisplayPictureViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPictureViewTests.swift; sourceTree = "<group>"; };
 		EFDD14B71E7C639A00E464D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDD14C21E7C645300E464D0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EFDD14C41E7C64CE00E464D0 /* DMDisplayPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMDisplayPictureViewController.swift; sourceTree = "<group>"; };
+		EFDD14C81E7C654B00E464D0 /* DMProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +77,8 @@
 		EFDD149F1E7C639A00E464D0 /* DisplayPictureView */ = {
 			isa = PBXGroup;
 			children = (
-				EFDD14A01E7C639A00E464D0 /* AppDelegate.swift */,
-				EFDD14A21E7C639A00E464D0 /* ViewController.swift */,
-				EFDD14A41E7C639A00E464D0 /* Main.storyboard */,
-				EFDD14A71E7C639A00E464D0 /* Assets.xcassets */,
-				EFDD14A91E7C639A00E464D0 /* LaunchScreen.storyboard */,
-				EFDD14AC1E7C639A00E464D0 /* Info.plist */,
+				EFDD14CB1E7C66D900E464D0 /* DMProfileView Example */,
+				EFDD14CA1E7C66C800E464D0 /* DMProfileView */,
 			);
 			path = DisplayPictureView;
 			sourceTree = "<group>";
@@ -94,6 +90,26 @@
 				EFDD14B71E7C639A00E464D0 /* Info.plist */,
 			);
 			path = DisplayPictureViewTests;
+			sourceTree = "<group>";
+		};
+		EFDD14CA1E7C66C800E464D0 /* DMProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD14C81E7C654B00E464D0 /* DMProfileView.swift */,
+			);
+			name = DMProfileView;
+			sourceTree = "<group>";
+		};
+		EFDD14CB1E7C66D900E464D0 /* DMProfileView Example */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD14A01E7C639A00E464D0 /* AppDelegate.swift */,
+				EFDD14C21E7C645300E464D0 /* Main.storyboard */,
+				EFDD14C41E7C64CE00E464D0 /* DMDisplayPictureViewController.swift */,
+				EFDD14A91E7C639A00E464D0 /* LaunchScreen.storyboard */,
+				EFDD14AC1E7C639A00E464D0 /* Info.plist */,
+			);
+			name = "DMProfileView Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDD14C31E7C645300E464D0 /* Main.storyboard in Resources */,
 				EFDD14AB1E7C639A00E464D0 /* LaunchScreen.storyboard in Resources */,
-				EFDD14A81E7C639A00E464D0 /* Assets.xcassets in Resources */,
-				EFDD14A61E7C639A00E464D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDD14A31E7C639A00E464D0 /* ViewController.swift in Sources */,
+				EFDD14C91E7C654B00E464D0 /* DMProfileView.swift in Sources */,
 				EFDD14A11E7C639A00E464D0 /* AppDelegate.swift in Sources */,
+				EFDD14C51E7C64CE00E464D0 /* DMDisplayPictureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +239,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EFDD14A41E7C639A00E464D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFDD14A51E7C639A00E464D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EFDD14A91E7C639A00E464D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
